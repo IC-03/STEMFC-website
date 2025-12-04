@@ -87,6 +87,11 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
     Route::get('attendance', [AttendanceController::class, 'adminList'])->name('admin.attendance.index');
     Route::get('attendance/export', [AttendanceController::class, 'exportCsv'])->name('admin.attendance.export');
 
+    Route::get('admin/{uuid}/edit', [AdminController::class, 'edit'])->name('admin.admin.edit');
+    // Procesar actualización
+    Route::put('admin/{uuid}', [AdminController::class, 'update'])->name('admin.admin.update');
+
+
     // Student CRUD
     Route::prefix('student')->group(function () {
         Route::get('list', [StudentController::class, 'index'])->name('admin.student.list');

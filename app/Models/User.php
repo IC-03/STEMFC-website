@@ -20,7 +20,6 @@ class User extends Authenticatable
         'password',
         'guard_id',
         'role_id',
-        'picture',
         'telephone',
         'gender',
         'notes',

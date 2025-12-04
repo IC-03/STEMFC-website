@@ -5,7 +5,7 @@
     <section class="content">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 text-center mt-4">
+                <div class="col-12 text-center mt-2">
                     <h4><strong>Welcome, {{ Auth::user()->first_name }}!</strong></h4>
                     <p>Select an action from the summary cards below.</p>
                 </div>

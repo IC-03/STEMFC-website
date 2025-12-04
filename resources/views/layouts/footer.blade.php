@@ -2,7 +2,7 @@
 </div>
 <!-- /.content-wrapper -->
 <footer class="main-footer">
-    <strong>Copyright &copy; {{ date('Y') }} <a href="https://www.fiverr.com/s/WErpwd5">STEM Foundation</a>.</strong>
+    <strong>Copyright &copy; {{ date('Y') }} STEM Foundation.</strong>
     All rights reserved.
 </footer>
 <!-- Control Sidebar -->
