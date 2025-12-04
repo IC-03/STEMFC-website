@@ -1,0 +1,408 @@
+[25-Jun-2025 15:56:56 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[25-Jun-2025 15:56:57 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[25-Jun-2025 15:58:31 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[26-Jun-2025 17:08:58 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[27-Jun-2025 22:46:54 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 20:50:27 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 20:50:31 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 20:50:32 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:00:08 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:00:11 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:00:12 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:00:15 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:00:27 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:00:31 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:00:41 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:00:51 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:01:05 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:01:28 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:01:41 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:03:24 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:03:38 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:03:49 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:03:50 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:03:51 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:03:51 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[29-Jun-2025 21:03:52 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[30-Jun-2025 13:58:36 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[30-Jun-2025 13:59:07 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[30-Jun-2025 13:59:16 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[30-Jun-2025 14:04:43 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[30-Jun-2025 14:04:57 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[30-Jun-2025 14:05:09 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[30-Jun-2025 14:05:20 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
+[30-Jun-2025 14:13:07 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:387) in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#2 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/stemfced/public_html/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}()
+#8 {main}
+  thrown in /home/stemfced/public_html/myapp/vendor/symfony/http-foundation/Response.php on line 322
